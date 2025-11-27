@@ -207,6 +207,11 @@ p {
   position: relative;
   border: none;
   cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.links-button:hover {
+  transform: scale(1.1);
 }
 
 @media (min-width:1024px) {
